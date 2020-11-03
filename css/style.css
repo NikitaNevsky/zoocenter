@@ -1,0 +1,1161 @@
+/*----------------------- Шрифты ------------------------*/
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerUltraLight.eot');
+    src: local('Muller UltraLight'), local('MullerUltraLight'),
+        url('../fonts/MullerUltraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerUltraLight.woff2') format('woff2'),
+        url('../fonts/MullerUltraLight.woff') format('woff'),
+        url('../fonts/MullerUltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerBoldItalic.eot');
+    src: local('Muller Bold Italic'), local('MullerBoldItalic'),
+        url('../fonts/MullerBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerBoldItalic.woff2') format('woff2'),
+        url('../fonts/MullerBoldItalic.woff') format('woff'),
+        url('../fonts/MullerBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerMedium.eot');
+    src: local('Muller Medium'), local('MullerMedium'),
+        url('../fonts/MullerMedium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerMedium.woff2') format('woff2'),
+        url('../fonts/MullerMedium.woff') format('woff'),
+        url('../fonts/MullerMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerExtraBoldItalic.eot');
+    src: local('Muller ExtraBold Italic'), local('MullerExtraBoldItalic'),
+        url('../fonts/MullerExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/MullerExtraBoldItalic.woff') format('woff'),
+        url('../fonts/MullerExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerUltraLightItalic.eot');
+    src: local('Muller UltraLight Italic'), local('MullerUltraLightItalic'),
+        url('../fonts/MullerUltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerUltraLightItalic.woff2') format('woff2'),
+        url('../fonts/MullerUltraLightItalic.woff') format('woff'),
+        url('../fonts/MullerUltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerRegular.eot');
+    src: local('Muller Regular'), local('MullerRegular'),
+        url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerRegular.woff2') format('woff2'),
+        url('../fonts/MullerRegular.woff') format('woff'),
+        url('../fonts/MullerRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerBlackItalic.eot');
+    src: local('Muller Black Italic'), local('MullerBlackItalic'),
+        url('../fonts/MullerBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerBlackItalic.woff2') format('woff2'),
+        url('../fonts/MullerBlackItalic.woff') format('woff'),
+        url('../fonts/MullerBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Muller Hairline';
+    src: url('../fonts/MullerHairlineItalic.eot');
+    src: local('Muller Hairline Italic'), local('MullerHairlineItalic'),
+        url('../fonts/MullerHairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerHairlineItalic.woff2') format('woff2'),
+        url('../fonts/MullerHairlineItalic.woff') format('woff'),
+        url('../fonts/MullerHairlineItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerHeavyItalic.eot');
+    src: local('Muller Heavy Italic'), local('MullerHeavyItalic'),
+        url('../fonts/MullerHeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerHeavyItalic.woff2') format('woff2'),
+        url('../fonts/MullerHeavyItalic.woff') format('woff'),
+        url('../fonts/MullerHeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerThinItalic.eot');
+    src: local('Muller Thin Italic'), local('MullerThinItalic'),
+        url('../fonts/MullerThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerThinItalic.woff2') format('woff2'),
+        url('../fonts/MullerThinItalic.woff') format('woff'),
+        url('../fonts/MullerThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Muller Hairline';
+    src: url('../fonts/MullerHairline.eot');
+    src: local('Muller Hairline'), local('MullerHairline'),
+        url('../fonts/MullerHairline.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerHairline.woff2') format('woff2'),
+        url('../fonts/MullerHairline.woff') format('woff'),
+        url('../fonts/MullerHairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerHeavy.eot');
+    src: local('Muller Heavy'), local('MullerHeavy'),
+        url('../fonts/MullerHeavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerHeavy.woff2') format('woff2'),
+        url('../fonts/MullerHeavy.woff') format('woff'),
+        url('../fonts/MullerHeavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerThin.eot');
+    src: local('Muller Thin'), local('MullerThin'),
+        url('../fonts/MullerThin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerThin.woff2') format('woff2'),
+        url('../fonts/MullerThin.woff') format('woff'),
+        url('../fonts/MullerThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerLightItalic.eot');
+    src: local('Muller Light Italic'), local('MullerLightItalic'),
+        url('../fonts/MullerLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerLightItalic.woff2') format('woff2'),
+        url('../fonts/MullerLightItalic.woff') format('woff'),
+        url('../fonts/MullerLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerLight.eot');
+    src: local('Muller Light'), local('MullerLight'),
+        url('../fonts/MullerLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerLight.woff2') format('woff2'),
+        url('../fonts/MullerLight.woff') format('woff'),
+        url('../fonts/MullerLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerBlack.eot');
+    src: local('Muller Black'), local('MullerBlack'),
+        url('../fonts/MullerBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerBlack.woff2') format('woff2'),
+        url('../fonts/MullerBlack.woff') format('woff'),
+        url('../fonts/MullerBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerBold.eot');
+    src: local('Muller Bold'), local('MullerBold'),
+        url('../fonts/MullerBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerBold.woff2') format('woff2'),
+        url('../fonts/MullerBold.woff') format('woff'),
+        url('../fonts/MullerBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerExtraBold.eot');
+    src: local('Muller ExtraBold'), local('MullerExtraBold'),
+        url('../fonts/MullerExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerExtraBold.woff2') format('woff2'),
+        url('../fonts/MullerExtraBold.woff') format('woff'),
+        url('../fonts/MullerExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller Regular';
+    src: url('../fonts/MullerRegularItalic.eot');
+    src: local('Muller Regular Italic'), local('MullerRegularItalic'),
+        url('../fonts/MullerRegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerRegularItalic.woff2') format('woff2'),
+        url('../fonts/MullerRegularItalic.woff') format('woff'),
+        url('../fonts/MullerRegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerMediumItalic.eot');
+    src: local('Muller Medium Italic'), local('MullerMediumItalic'),
+        url('../fonts/MullerMediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MullerMediumItalic.woff2') format('woff2'),
+        url('../fonts/MullerMediumItalic.woff') format('woff'),
+        url('../fonts/MullerMediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/*----------------------- Спецификации ------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muller';
+    background: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #302020;
+}
+
+/* Размеры скроллбара */
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Трек поле скроллбара */
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+/* Ползунок скроллбара */
+body::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(246, 66, 103, 1); 
+    background:rgba(246, 66, 103, 1);
+    border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 69px;
+    color: #fff;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+ul, li, li, a, input, textarea, label, div {
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a, button {
+    transition: all .2s ease-in;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(246,66,103);
+    background: linear-gradient(180deg, rgba(246,66,103,1) 0%, rgba(162,44,68,1) 100%);
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    width: 260px;
+    height: 81px;
+    text-decoration: none;
+    position: relative;
+    -webkit-box-shadow: inset 0 0 5px rgba(242,92,18,0.55);
+    -moz-box-shadow: inset 0 0 7px rgba(242,92,18,0.55);
+    box-shadow: inset 0 0 7px rgba(242,92,18,0.55);
+}
+
+.btn:before {
+    content: '';
+    position: absolute;
+    background: url('../images/button-bg.png') no-repeat center top;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    background: url('../images/shadow-btn.png') no-repeat center top;
+    width: 100%;
+    height: 91px;
+    bottom: -50px;
+    z-index: 0;
+}
+
+.btn:hover {
+    background: rgb(162,44,68,1);
+    background: linear-gradient(180deg, rgba(162,44,68,1) 0%, rgba(246,66,103,1) 100%);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.container {
+    position: relative;
+    max-width: 1160px;
+    margin: auto;
+}
+
+/*----------------------- Header ------------------------*/
+
+.header {
+    background: #e8e8e8;
+    padding: 8px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    position: relative;
+    margin-right: 30px;
+}
+
+.menu__item--icon {
+    position: absolute;
+    display: flex;
+    width: 10px;
+    height: 6px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu__item a {
+    display: block;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+    text-decoration: none;
+    transition: all .3s ease;
+    position: relative;
+}
+
+.menu__item a:hover {
+    opacity: 0.8;
+}
+
+.menu__item:last-child a {
+    margin-right: 0;
+}
+
+.submenu {
+    position: absolute;
+    top: 48px;
+    left: -10px;
+    width: 200px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 16px 21px rgba(0,0,0,0.35);
+    margin-top: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+}
+
+.menu__item:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+    margin-top: 0;
+}
+
+.submenu:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 20px 10px 20px;
+    border-color: transparent transparent #fff transparent;
+}
+
+.header-content__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header-content__contacts span {
+    font-size: 14px;
+    line-height: 23px;
+    color: #000;
+    font-weight: normal;
+}
+
+.header-content__contacts .phone {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-content__contacts .phone:hover {
+    opacity: 0.8;
+}
+
+.header-content__contacts .phone span {
+    font-size: 23px;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+.header-content__contacts .phone img {
+    display: block;
+    margin-right: 10px;
+}
+
+/*----------------------- Offer ------------------------*/
+
+.offer {
+    background: url('../images/main-bg.png') no-repeat center -75px;
+    padding: 55px 0;
+}
+
+.offer-content__title {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.offer-content__title span {
+    font-weight: normal;
+}
+
+.offer-content__text {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.form {
+    width: 420px;
+    height: max-content;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 40px;
+    position: relative;
+    -webkit-box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    position: relative;
+}
+
+.form:before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: calc(100% - 20px);
+    border: 1px solid #e6e6e6;
+    left: 10px;
+    top: 10px;
+    border-radius: 10px;
+}
+
+.form__text {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form__text span {
+    font-weight: bold;
+    display: block;
+}
+
+.form__input {
+    width: 260px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form__input input {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    padding-left: 56px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    -webkit-box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.19);
+    box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.19);
+    transition: all .3s ease;
+}
+
+.form__input img {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form__input input:focus {
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.form__btn {
+    position: relative;
+    max-width: 260px;
+    margin: 40px auto; 
+}
+
+.form__btn:before {
+    content: '';
+    background: url('../images/hair-machine.png') no-repeat center;
+    position: absolute;
+    width: 84px;
+    height: 90px;
+    right: -20px;
+    bottom: -25px;
+    z-index: 11;
+}
+
+.form__small-text {
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    color: #84827e;
+}
+
+/*----------------------- Services ------------------------*/
+
+.services {
+    padding: 45px 0;
+    background: url('../images/master-bg.png') no-repeat bottom right;
+}
+
+.services-content__title {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.services-content__title span {
+    font-weight: normal;
+}
+
+.services-content__row {
+    margin-bottom: 70px;    
+}
+
+.services-content__col {
+    max-width: 538px;
+}
+
+.services-content__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-content__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-content__item {
+    width: 538px;
+    height: 220px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    padding: 38px;
+    position: relative;
+    overflow: hidden;
+}
+
+.services-content__item--title {
+    margin-bottom: 15px;
+    max-width: 350px;
+}
+
+.services-content__item--small_text {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.services-content__item--price {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.services-content__item--btn {
+    position: absolute;
+    bottom: 38px;
+}
+
+.services-content__item--btn a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 25px;
+    color: #f64267;
+    text-decoration: none;
+}
+
+.services-content__item--btn a:hover {
+    text-decoration: underline;
+}
+
+.services-content__item--btn a img {
+    margin-left: 15px;
+}
+
+.services-content__item_haircut {
+    background: url('../images/services-dog1.png') no-repeat;
+}
+
+.services-content__item_toothbrushing {
+    background: url('../images/services-dog2.png') no-repeat;
+}
+
+.services-content__item_anaesthesia:before {
+    content: '';
+    background: url('../images/no-anasthesia.png') no-repeat;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    right: 50px;
+    top: 20px;
+}
+
+.services-content__item_haircut-cat {
+    background: url('../images/services-cat.png') no-repeat;
+}
+
+.services-content__item_training-dog {
+    background: url('../images/training-dog.png') no-repeat;
+}
+
+.services-content__item--small {
+    padding: 38px 20px;
+    width: 260px;
+}
+
+.services-content__item--small .services-content__item--btn {
+    margin-left: 18px;
+}
+
+.services-content__item_petshop {
+    background: url('../images/petshop.png') no-repeat;
+}
+
+.services-content__item_autogamic {
+    background: url('../images/autogamic.png') no-repeat;
+}
+
+.services-content__item_delicacies {
+    background: url('../images/delicacies.png') no-repeat;
+}
+
+.services-content__item_cosmetic {
+    background: url('../images/cosmetic.png') no-repeat;
+}
+
+.services-content__item_grooming {
+    background: url('../images/grooming.png') no-repeat;
+}
+
+.services-content__item--masters {
+    display: flex;
+    align-items: center;
+    height: 358px;
+    padding: 0;
+}
+
+.services-content__item--masters_info {
+    height: 140px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #f34267;
+    padding: 15px 15px 25px 15px;
+}
+
+.services-content__item--masters_name {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.services-content__item--masters_experience {
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.services-content__item--masters_text {
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/*----------------------- About ------------------------*/
+
+.about {
+    padding: 240px 0 200px;
+    background: url('../images/founder-bg.png') no-repeat center;
+    min-height: 1150px;
+    margin-top: 60px;
+}
+
+.about-content__title {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.about-content__title span {
+    font-weight: normal;
+}
+
+.about-content__info span {
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.about-content__name {
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.about-content__text {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 18px;
+    color: #fff;
+}
+
+.about-content__info--title {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.about-content__list {
+    max-width: 600px;
+}
+
+.about-content__item {
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.about-content__order {
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+}
+
+.about-content__order .form__btn {
+    margin-top: 20px;
+}
+
+
+/*----------------------- Sertificates ------------------------*/
+
+.sertificates {
+    padding-bottom: 25px;
+}
+
+.sertificates-content__title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.sertificates-content__title span {
+    font-weight: normal;
+}
+
+.sertificates-content__list {
+    display: flex;
+    justify-content: center;
+}
+
+.sertificates-content__item {
+    -webkit-box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    margin: 0 20px;
+}
+
+/*----------------------- Events ------------------------*/
+
+.events {
+    padding: 25px 0 20px;
+}
+
+.events-content__title {
+    margin-bottom: 30px;
+}
+
+.events-content__title span {
+    font-weight: normal;
+}
+
+.events-content__photo {
+    display: flex;
+    justify-content: center;
+}
+
+.events-content__photo--item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 20px 21px rgba(0,0,1,0.08);
+    -moz-box-shadow: 0px 20px 21px rgba(0,0,1,0.08);
+    box-shadow: 0px 20px 21px rgba(0,0,1,0.08);
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+.events-content__photo--item_bh {
+    height: 460px;
+}
+
+.events-content__photo--item_view {
+    background: #363a40;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.events-content__photo--item_small {
+    height: 220px;
+    margin-bottom: 38px;
+    margin-bottom: 20px;
+}
+
+.events-content__photo--item_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-content__photo--list_bw {
+
+}
+
+.events-content__photo--item_bw {
+    width: 560px;
+    height: 220px;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.events-content__photo--list_small {
+    display: flex;
+}
+
+.events-content__photo--list_bw .events-content__photo--list_small .events-content__photo--item:last-child {
+    margin-right: 0;
+}
+
+.owl-nav {
+    display: block!important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 23px;
+    width: 100%;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    left: -38px;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    right: -38px;
+}
+
+.owl-nav .owl-prev:focus,
+.owl-nav .owl-next:focus {
+    outline: none;
+}
+
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+    opacity: 0.7;
+}
+
+/*----------------------- Footer ------------------------*/
+
+.footer {
+    background: url('../images/footer-bg.png') no-repeat center -60px; 
+    padding: 100px 0 35px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px dashed #c8c5c5;
+    border-bottom: 1px dashed #c8c5c5;
+}
+
+.footer-content__logo {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin-right: 65px;
+}
+
+.footer-content__logo a {
+    display: block;
+    margin-right: 20px;
+}
+
+.footer-content__logo--text {
+    font-size: 14px;
+    line-height: 23px;
+    color: #000;
+}
+
+.footer-content__logo--text span {
+    font-weight: bold;
+}
+
+.footer-content__address {
+    display: flex;
+    align-items: center;
+}
+
+.footer-content__address--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid #d0d0d0;
+    margin-right: 18px;
+}
+
+.footer-content__address--title {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #281c1c;
+    margin-bottom: 15px;
+}
+
+.footer-content__address--item {
+    font-size: 18px;
+    line-height: 18px;
+    color: #281c1c;
+}
+
+.footer-content__phone {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.footer-content__phone--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid #d0d0d0;
+    margin-right: 18px;
+}
+
+.footer-content__phone--info span {
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #281c1c;
+    margin-bottom: 7px;
+}
+
+.footer-content__phone--info a {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #281c1c;
+    text-decoration: none;
+}
+
+.footer-content__phone--info a:hover {
+    opacity: 0.7;
+}
+
+.footer-content__phone--info a img {
+    margin-left: 15px;
+    margin-top: -3px;
+}
+
+.button-call {
+    display: block;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 18px;
+    color: #281c1c;
+    margin-top: -7px;
+    cursor: pointer;
+}
+
+.button-call:hover {
+    text-decoration: none;
+}
+
+.button-call:focus {
+    outline: none;
+}
+
+.footer__politics {
+    margin-top: 40px;
+}
+
+.footer__politics a {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    color: #281c1c;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer__politics a:hover {
+    text-decoration: underline;
+}
