@@ -567,4 +567,110 @@
     .events-content__photo_mobile {
         display: block!important;
     }
+
+    .handling-content__slider {
+        display: none!important;
+    }
+
+    .handling-content__slider_mobile {
+        display: block;
+    }
+
+    .reviews {
+        padding: 90px 0 100px;
+    }
+
+    .reviews-content__list {
+        display: none!important;
+    }
+
+    .reviews-content__list_mobile {
+        display: block!important;
+    }
+
+    .reviews-content__item {
+        width: 100%;
+    }
+
+    .who-rents-content__item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .who-rents-content__item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .who-rents-content__item--text {
+        bottom: 0;
+    }
+
+    .lesson-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lesson-content h2 {
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .lesson-content__list {
+        order: 3;
+    }
+
+    .lesson-content__text {
+        order: 2;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .question {
+        order: 4;
+    }
+
+    .lesson-content__item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .lesson-content__item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .lesson-content__item--text {
+        bottom: 0;
+    }
+
+    .question .form__text {
+        margin-bottom: 20px;
+    }
+
+    .form__info {
+        flex-direction: column;
+    }
+
+    .form__label {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .form__label br {
+        display: none;
+    }
+
+    .question .form__input {
+        margin: 0 auto 20px;
+        height: 60px;
+    }
+
+    .question .form__input img {
+        display: block;
+    }
 }

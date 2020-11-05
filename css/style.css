@@ -252,6 +252,7 @@ body {
     font-size: 18px;
     line-height: 18px;
     color: #302020;
+    overflow-x: hidden;
 }
 
 /* Размеры скроллбара */
@@ -1326,6 +1327,10 @@ a, button {
     font-weight: normal;
 }
 
+.handling-content__slider_mobile {
+    display: none;
+}
+
 .handling-content__slider--list {
     display: flex;
     justify-content: center;
@@ -1369,6 +1374,10 @@ a, button {
 .reviews-content__list {
     display: flex;
     justify-content: center;
+}
+
+.reviews-content__list_mobile {
+    display: none!important;
 }
 
 .reviews-content__item {
@@ -1582,4 +1591,362 @@ a, button {
 
 .info-content__text p:last-child {
     margin-bottom: 0;
+}
+
+.question .form__input img {
+    display: none;
+}
+
+/*-------------------------------------------------------------------------
+Cat grooming ------------------------------------------------------------*/
+
+.cat-grooming {
+    padding: 135px 0 60px;
+    background: url(../images/cat-grooming-bg.png) no-repeat center 0;
+}
+
+.form__title {
+    font-size: 27.55px;
+    line-height: 34.44px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cat-grooming-content__gift--form {
+    margin-right: 100px;
+    position: relative;
+}
+
+.cat-grooming-content__gift--form:before {
+    content: '';
+    width: 248px;
+    height: 196px;
+    background: url('../images/cat-form.png') no-repeat;
+    position: absolute;
+    z-index: 1;
+    top: -142px;
+    right: 10px;
+}
+
+.cat-grooming-content__gift--form .form__text {
+    font-size: 27.55px;
+    line-height: 34.44px;
+}
+
+.cat-grooming-content__title {
+    font-size: 64px;
+    line-height: 62px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.cat-grooming-content__title span {
+    font-weight: bold;
+}
+
+.cat-grooming-content__subtitle {
+    font-size: 27.28px;
+    line-height: 29.86px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cat-grooming-content__info {
+    margin-top: 25px;
+}
+
+.cat-grooming-content__gift {
+    display: flex;
+    align-items: center;
+}
+
+.cat-grooming-content__gift--text {
+    width: 250px;
+    height: 88px;
+    padding: 15px;
+    border: 2px dashed #fff;
+    color: #fff;
+    font-size: 27.28px;
+    line-height: 29.86px;
+    font-weight: bold;
+    border-radius: 21px;
+    margin-right: 70px;
+    margin-left: auto;
+}
+
+.cat-grooming-content__gift--form .form {
+    padding-top: 50px;
+}
+
+/*----------------------- Stock ------------------------*/
+
+.stock {
+    padding: 35px 0 110px;
+}
+
+.skills__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 620px;
+    margin-left: auto;
+}
+
+.skills__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    width: 310px;
+}
+
+.skills__item img {
+    margin-right: 15px;
+}
+
+.skills__item--text {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.skills__item--text span {
+    font-weight: bold;
+}
+
+.stock__info {
+    position: relative;
+}
+
+.stock__form .form {
+    padding: 60px 40px 45px;
+    position: relative;
+    margin-left: 40px;
+    z-index: 5;
+}
+
+.stock__form .form:before {
+    border: 4px solid #ff4c4c;
+    width: calc(100% - 28px);
+    height: calc(100% - 28px);
+}
+
+.stock__form .form:after {
+    content: '';
+    background: url('../images/stock-cat1.png') no-repeat;
+    position: absolute;
+    width: 222px;
+    height: 236px;
+    z-index: 2;
+    top: -214px;
+    left: 100px;
+}
+
+.stock__form .form__text {
+    max-width: 200px;
+    margin: 0 auto 50px;
+}
+
+.stock__body {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 440px;
+    border: 4px solid #ff4c4c;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    border-radius: 15px;
+    z-index: 3;
+    padding: 30px 40px;
+}
+
+.stock__body:before {
+    content: '';
+    position: absolute;
+    background: url('../images/stock-cat2.png') no-repeat;
+    width: 524px;
+    height: 452px;
+    right: -200px;
+    bottom: -150px;
+    z-index: 5;
+}
+
+.stock__body--left {
+    margin-right: 30px;
+}
+
+.stock__body--title {
+    margin-bottom: 20px;
+    font-size: 48.09px;
+    line-height: 48.09px;
+    font-weight: 900;
+    color: #f64368;
+}
+
+.stock__body--title span {
+    color: #000;
+    font-weight: normal;
+}
+
+.stock__body--item {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.stock__body--item img {
+    margin-right: 10px;
+}
+
+.stock__body--item span {
+    display: block;
+    font-size: 21px;
+    line-height: 20px;
+    color: #302020;
+}
+
+.stock__body--price .old {
+    font-size: 35.09px;
+    line-height: 48.09px;
+    color: #000;
+    text-align: right;
+}
+
+.stock__body--price .new {
+    font-size: 48.09px;
+    line-height: 48.09px;
+    color: #db5570;
+    font-weight: bold;
+    text-align: right;
+}
+
+/*----------------------- Grooming ------------------------*/
+
+.question__grooming {
+    position: relative;
+}
+
+.question__grooming:before {
+    content: '';
+    position: absolute;
+    width: 324px;
+    height: 200px;
+    background: url('../images/cat-form2.png') no-repeat;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+
+.question__grooming .form__title {
+    margin-bottom: 30px;
+}
+
+.question__grooming .form__small-text {
+    position: relative;
+    z-index: 4;
+}
+
+.question__grooming .form__input {
+    margin-left: 200px;
+}
+
+/*----------------------- Grooming ------------------------*/
+
+.home {
+    padding: 75px 0 0;
+}
+
+.home-content h2 {
+    margin-bottom: 45px;
+}
+
+.home-content h2 span {
+    font-weight: normal;
+}
+
+.home-content__info {
+    background: url('../images/home-info-bg.png') no-repeat center -370px;
+    position: relative;
+}
+
+.home-content__info:after {
+    content: '';
+    position: absolute;
+    width: 817px;
+    height: 676px;
+    background: url('../images/kiolla.png') no-repeat;
+    bottom: -180px;
+    left: 100px;
+}
+
+.home-content__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-content__item {
+    display: flex;
+    align-items: center;
+}
+
+.home-content__item--icon {
+    margin-right: 25px;
+}
+
+.home-description {
+    padding: 180px 0 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-description__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 19px;
+    line-height: 33px;
+}
+
+.home-description__item img {
+    margin-right: 20px;
+}
+
+.home-description__title {
+    font-size: 36px;
+    line-height: 36px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.home-description__title span {
+    font-weight: bold;
+}
+
+.home-description__text {
+    font-size: 21px;
+    line-height: 23px;
+    color: #fff;
+    margin-bottom: 16px;
+    max-width: 440px;
+}
+
+.home-description__form .form {
+    padding: 30px;
+    position: relative;
+}
+
+.home-description__form .form:after {
+    content:'';
+    position: absolute;
+    width: 467px;
+    height: 155px;
+    background: url('../images/cat-form3.png') no-repeat;
+    right: -50px;
+    top: -120px;
+}
+
+.home-description__form .form__text {
+    font-size: 27.55px;
+    line-height: 34.44px;
 }
