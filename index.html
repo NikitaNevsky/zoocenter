@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/sweetAlert.css">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -118,6 +120,116 @@
                     </a>
                 </div>
             </div>
+            <div class="header-content__mobile">
+                <div class="header-content__top">
+                    <div class="header-content__logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                        <div class="header-content__logo--text">
+                            <span>Ведущий зооцентр</span><br>
+                            Челябинска
+                        </div>
+                    </div>
+                    <div class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">
+                                Для собак
+                                <ul class="submenu">
+                                    <li class="submenu__item">
+                                        <a href="#">- Стрижка собак</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a href="#">- Чистка зубов</a>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="menu__item--icon">
+                                <img src="images/arrow-down.png" alt="arrow down">
+                            </div>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">
+                                Для кошек
+                                <ul class="submenu">
+                                    <li class="submenu__item">
+                                        <a href="#">- Стрижка кошек</a>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="menu__item--icon">
+                                <img src="images/arrow-down.png" alt="arrow down">
+                            </div>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">
+                                Хендлинг зал
+                                <ul class="submenu">
+                                    <li class="submenu__item">
+                                        <a href="#">- Аренда зала</a>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="menu__item--icon">
+                                <img src="images/arrow-down.png" alt="arrow down">
+                            </div>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">
+                                Товары для собак
+                                <ul class="submenu">
+                                    <li class="submenu__item">
+                                        <a href="#">- Зооателье</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a href="#">- Автогамаки для собак</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a href="#">- Лакомства</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a href="#">- Проф косметика для ухода за собаками Crow Royal</a>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="menu__item--icon">
+                                <img src="images/arrow-down.png" alt="arrow down">
+                            </div>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">
+                                Школа груминга
+                                <ul class="submenu">
+                                    <li class="submenu__item">
+                                        <a href="#">- Персональное обучение 
+                                            грумингу с 0 до профи</a>
+                                    </li>
+                                </ul>
+                            </a>
+                            <div class="menu__item--icon">
+                                <img src="images/arrow-down.png" alt="arrow down">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-content__bottom">
+                    <div class="header-content__mobile-phone">
+                        <span>Телефон для записи</span>
+                        <a href="tel:89049771511">
+                            <img src="images/mobile-white.png" alt="mobile">
+                            8 904 977 15 11
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -143,7 +255,7 @@
                     </div>
                     <div class="form__input">
                         <img src="images/contact-phone.png" alt="contact-phone">
-                        <input type="text" placeholder="Контактный телефон">
+                        <input type="text" id="phone" placeholder="Контактный телефон">
                     </div>
                     <div class="form__btn">
                         <button class="btn">
@@ -336,7 +448,7 @@
                         <span>Наши</span><br>
                         мастера
                     </h2>
-                    <div class="services-content__list">
+                    <div class="services-content__list masters__desctop">
                         <div class="services-content__item services-content__item--small services-content__item--masters">
                             <div class="services-content__item--masters_photo">
                                 <img src="images/master.png" alt="master">
@@ -402,6 +514,73 @@
                             </div>                            
                         </div>              
                     </div>
+                    <div class="services-content__list masters__mobile owl-carousel slider-type1">
+                        <div class="services-content__item services-content__item--small services-content__item--masters">
+                            <div class="services-content__item--masters_photo">
+                                <img src="images/master.png" alt="master">
+                            </div>
+                            <div class="services-content__item--masters_info">
+                                <div class="services-content__item--masters_name">
+                                    Иванов Иван
+                                </div>
+                                <div class="services-content__item--masters_experience">
+                                    Опыт: 20 лет
+                                </div>
+                                <div class="services-content__item--masters_text">
+                                    Описание описание описание описание
+                                </div>
+                            </div>                            
+                        </div>          
+                        <div class="services-content__item services-content__item--small services-content__item--masters">
+                            <div class="services-content__item--masters_photo">
+                                <img src="images/master.png" alt="master">
+                            </div>
+                            <div class="services-content__item--masters_info">
+                                <div class="services-content__item--masters_name">
+                                    Иванов Иван
+                                </div>
+                                <div class="services-content__item--masters_experience">
+                                    Опыт: 20 лет
+                                </div>
+                                <div class="services-content__item--masters_text">
+                                    Описание описание описание описание
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="services-content__item services-content__item--small services-content__item--masters">
+                            <div class="services-content__item--masters_photo">
+                                <img src="images/master.png" alt="master">
+                            </div>
+                            <div class="services-content__item--masters_info">
+                                <div class="services-content__item--masters_name">
+                                    Иванов Иван
+                                </div>
+                                <div class="services-content__item--masters_experience">
+                                    Опыт: 20 лет
+                                </div>
+                                <div class="services-content__item--masters_text">
+                                    Описание описание описание описание
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="services-content__item services-content__item--small services-content__item--masters">
+                            <div class="services-content__item--masters_photo">
+                                <img src="images/master.png" alt="master">
+                            </div>
+                            <div class="services-content__item--masters_info">
+                                <div class="services-content__item--masters_name">
+                                    Иванов Иван
+                                </div>
+                                <div class="services-content__item--masters_experience">
+                                    Опыт: 20 лет
+                                </div>
+                                <div class="services-content__item--masters_text">
+                                    Описание описание описание описание
+                                </div>
+                            </div>                            
+                        </div>              
+                    </div>
+                    <div id="counter"></div>
                 </div>
             </div>
         </div>
@@ -458,7 +637,7 @@
                         </div>
                         <div class="form__input">
                             <img src="images/contact-phone.png" alt="contact-phone">
-                            <input type="text" placeholder="Введите номер телефона">
+                            <input type="text" id="phone2" placeholder="Введите номер телефона">
                         </div>
                         <div class="form__btn">
                             <button class="btn">
@@ -482,20 +661,29 @@
                     <span>Мои</span><br>
                     сертификаты
                 </h2>
-                <div class="sertificates-content__list owl-carousel">
+                <div class="sertificates-content__list owl-carousel slider-type1">
                     <div class="sertificates-content__item">
-                        <img src="images/sertificate.png" alt="sertificate">
+                        <a data-fancybox="gallery" href="images/sertificate.png">
+                            <img src="images/sertificate.png" alt="sertificate">
+                        </a>                        
                     </div>
                     <div class="sertificates-content__item">
-                        <img src="images/sertificate.png" alt="sertificate">
+                        <a data-fancybox="gallery" href="images/sertificate.png">
+                            <img src="images/sertificate.png" alt="sertificate">
+                        </a>                        
                     </div>
                     <div class="sertificates-content__item">
-                        <img src="images/sertificate.png" alt="sertificate">
+                        <a data-fancybox="gallery" href="images/sertificate.png">
+                            <img src="images/sertificate.png" alt="sertificate">
+                        </a>                        
                     </div>
                     <div class="sertificates-content__item">
-                        <img src="images/sertificate.png" alt="sertificate">
-                    </div>
+                        <a data-fancybox="gallery" href="images/sertificate.png">
+                            <img src="images/sertificate.png" alt="sertificate">
+                        </a>                        
+                    </div>                    
                 </div>
+                <div id="counter2"></div>
             </div>
         </div>
     </section>
@@ -510,7 +698,9 @@
                 <div class="events-content__photo">
                     <div class="events-content__photo--item events-content__photo--item_bh">
                         <div class="events-content__photo--item_img">
-                            
+                            <a data-fancybox="gallery" href="images/photo1.jpg">
+                                <img src="images/photo1.jpg" alt="photo">
+                            </a>
                         </div>
                         <div class="events-content__photo--item_view">
                             <div class="events-content__photo--item_icon">
@@ -521,7 +711,9 @@
                     <div class="events-content__photo--list">
                         <div class="events-content__photo--item events-content__photo--item_small">
                             <div class="events-content__photo--item_img">
-                                
+                                <a data-fancybox="gallery" href="images/photo2.jpg">
+                                    <img src="images/photo2.jpg" alt="photo">
+                                </a>
                             </div>
                             <div class="events-content__photo--item_view">
                                 <div class="events-content__photo--item_icon">
@@ -531,7 +723,9 @@
                         </div>
                         <div class="events-content__photo--item events-content__photo--item_small">
                             <div class="events-content__photo--item_img">
-                                
+                                <a data-fancybox="gallery" href="images/photo3.jpg">
+                                    <img src="images/photo3.jpg" alt="photo">
+                                </a>
                             </div>
                             <div class="events-content__photo--item_view">
                                 <div class="events-content__photo--item_icon">
@@ -543,7 +737,9 @@
                     <div class="events-content__photo--list_bw">
                         <div class="events-content__photo--item events-content__photo--item_bw">
                             <div class="events-content__photo--item_img">
-                                
+                                <a data-fancybox="gallery" href="images/photo5.jpg">
+                                    <img src="images/photo5.jpg" alt="photo">
+                                </a>
                             </div>
                             <div class="events-content__photo--item_view">
                                 <div class="events-content__photo--item_icon">
@@ -554,7 +750,9 @@
                         <div class="events-content__photo--list_small">
                             <div class="events-content__photo--item events-content__photo--item_small">
                                 <div class="events-content__photo--item_img">
-                                    
+                                    <a data-fancybox="gallery" href="images/photo6.jpg">
+                                        <img src="images/photo6.jpg" alt="photo">
+                                    </a>
                                 </div>
                                 <div class="events-content__photo--item_view">
                                     <div class="events-content__photo--item_icon">
@@ -564,7 +762,9 @@
                             </div>
                             <div class="events-content__photo--item events-content__photo--item_small">
                                 <div class="events-content__photo--item_img">
-                                    
+                                    <a data-fancybox="gallery" href="images/photo4.jpg">
+                                        <img src="images/photo4.jpg" alt="photo">
+                                    </a>
                                 </div>
                                 <div class="events-content__photo--item_view">
                                     <div class="events-content__photo--item_icon">
@@ -575,6 +775,93 @@
                         </div>     
                     </div>               
                 </div>
+                <div class="events-content__photo_mobile owl-carousel slider-type1">
+                    <div class="events-content__photo--item events-content__photo--item_bh">
+                        <div class="events-content__photo--item_img">
+                            <a data-fancybox="gallery" href="images/photo4.jpg">
+                                <img src="images/photo4.jpg" alt="photo">
+                            </a>
+                        </div>
+                        <div class="events-content__photo--item_view">
+                            <div class="events-content__photo--item_icon">
+                                <img src="images/view.png" alt="view">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="events-content__photo--item events-content__photo--item_bh">
+                        <div class="events-content__photo--item_img">
+                            <a data-fancybox="gallery" href="images/photo1.jpg">
+                                <img src="images/photo1.jpg" alt="photo">
+                            </a>
+                        </div>
+                        <div class="events-content__photo--item_view">
+                            <div class="events-content__photo--item_icon">
+                                <img src="images/view.png" alt="view">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="events-content__photo--item events-content__photo--item_bh">
+                        <div class="events-content__photo--item_img">
+                            <a data-fancybox="gallery" href="images/photo2.jpg">
+                                <img src="images/photo2.jpg" alt="photo">
+                            </a>
+                        </div>
+                        <div class="events-content__photo--item_view">
+                            <div class="events-content__photo--item_icon">
+                                <img src="images/view.png" alt="view">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="events-content__photo--item events-content__photo--item_bh">
+                        <div class="events-content__photo--item_img">
+                            <a data-fancybox="gallery" href="images/photo3.jpg">
+                                <img src="images/photo3.jpg" alt="photo">
+                            </a>
+                        </div>
+                        <div class="events-content__photo--item_view">
+                            <div class="events-content__photo--item_icon">
+                                <img src="images/view.png" alt="view">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="events-content__photo--item events-content__photo--item_bh">
+                        <div class="events-content__photo--item_img">
+                            <a data-fancybox="gallery" href="images/photo4.jpg">
+                                <img src="images/photo4.jpg" alt="photo">
+                            </a>
+                        </div>
+                        <div class="events-content__photo--item_view">
+                            <div class="events-content__photo--item_icon">
+                                <img src="images/view.png" alt="view">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="events-content__photo--item events-content__photo--item_bh">
+                        <div class="events-content__photo--item_img">
+                            <a data-fancybox="gallery" href="images/photo5.jpg">
+                                <img src="images/photo5.jpg" alt="photo">
+                            </a>
+                        </div>
+                        <div class="events-content__photo--item_view">
+                            <div class="events-content__photo--item_icon">
+                                <img src="images/view.png" alt="view">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="events-content__photo--item events-content__photo--item_bh">
+                        <div class="events-content__photo--item_img">
+                            <a data-fancybox="gallery" href="images/photo2.jpg">
+                                <img src="images/photo2.jpg" alt="photo">
+                            </a>
+                        </div>
+                        <div class="events-content__photo--item_view">
+                            <div class="events-content__photo--item_icon">
+                                <img src="images/view.png" alt="view">
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+                <div id="counter3"></div>
             </div>
         </div>
     </section>
@@ -633,6 +920,8 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"></script>
     <script src="js/sweetAlert.js"></script>
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,14 +1,19 @@
-
 $(document).ready(function(){
-    $("#phone").mask("+7(999) 999-9999");
+    $("#phone").mask("+7(999) 999-99-99");
+    $("#phone2").mask("+7(999) 999-99-99");
 });
 
-$('.owl-carousel').owlCarousel({
+$('.slider-type1').owlCarousel({
     loop:true,
     nav:false,
     navText: ['<span class="arrow-left"><img src="images/arrow-left.png" /></span>','<span class="arrow-right"><img src="images/arrow-right.png" /></span>'],
+    onInitialized: counter,
+    onTranslated: counter,
     responsive:{
         0:{
+            items:1
+        },
+        450:{
             items:1
         },
         600:{
@@ -19,6 +24,91 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+function counter(event) {
+  var element   = event.target;         // DOM element, in this example .owl-carousel
+   var items     = event.item.count;     // Number of items
+   var item      = event.item.index + 1;     // Position of the current item
+ 
+ // it loop is true then reset counter from 1
+ if(item > items) {
+   item = item - items
+ }
+ $('#counter').html(item+"/"+items)
+}
+
+function counter(event) {
+  var element   = event.target;         // DOM element, in this example .owl-carousel
+   var items     = event.item.count;     // Number of items
+   var item      = event.item.index + 1;     // Position of the current item
+ 
+ // it loop is true then reset counter from 1
+ if(item > items) {
+   item = item - items
+ }
+ $('#counter2').html(item+"/"+items)
+}
+
+function counter(event) {
+  var element   = event.target;         // DOM element, in this example .owl-carousel
+   var items     = event.item.count;     // Number of items
+   var item      = event.item.index + 1;     // Position of the current item
+ 
+ // it loop is true then reset counter from 1
+ if(item > items) {
+   item = item - items
+ }
+ $('#counter3').html(item+"/"+items)
+}
+
+$('.slider-type2').owlCarousel({
+  loop:true,
+  nav:false,
+  navText: ['<span class="arrow-left"><img src="images/arrow-left2.png" /></span>','<span class="arrow-right"><img src="images/arrow-right2.png" /></span>'],
+  onInitialized: counter,
+  onTranslated: counter,
+  responsive:{
+      0:{
+          items:1
+      },
+      450:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:1
+      }
+  }
+})
+
+$('.slider-type3').owlCarousel({
+  loop:true,
+  nav:false,
+  navText: ['<span class="arrow-left"><img src="images/arrow-left2.png" /></span>','<span class="arrow-right"><img src="images/arrow-right2.png" /></span>'],
+  onInitialized: counter,
+  onTranslated: counter,
+  responsive:{
+      0:{
+          items:1
+      },
+      450:{
+          items:1
+      },
+      600:{
+          items:2
+      },
+      1000:{
+          items:2
+      }
+  }
+})
+
+$( ".burger" ).click(function() {
+  $( ".header-content__mobile .menu" ).toggleClass('d-block');
+  $( ".burger" ).toggleClass('burger-black');
+});
 
 $('form.ajax').submit(function () {
     var $this = $(this),
