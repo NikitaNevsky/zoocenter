@@ -1719,8 +1719,8 @@ Cat grooming ------------------------------------------------------------*/
 .stock__form .form {
     padding: 60px 40px 45px;
     position: relative;
-    margin-left: 40px;
     z-index: 5;
+    min-height: 480px;
 }
 
 .stock__form .form:before {
@@ -1741,7 +1741,9 @@ Cat grooming ------------------------------------------------------------*/
 }
 
 .stock__form .form__text {
-    max-width: 200px;
+    font-size: 27px;
+    line-height: 25px;
+    color: #000;
     margin: 0 auto 50px;
 }
 
@@ -1949,4 +1951,182 @@ Cat grooming ------------------------------------------------------------*/
 .home-description__form .form__text {
     font-size: 27.55px;
     line-height: 34.44px;
+}
+
+/*----------------------- Dog grooming ------------------------*/ 
+
+.cat-grooming.dog-grooming {
+    padding: 160px 0 60px;
+    background: url(../images/dog-grooming-bg.png) no-repeat center 0;
+}
+
+.dog-grooming .cat-grooming-content__gift--text {
+    width: 300px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.dog-grooming .cat-grooming-content__gift--form:before {
+    content: none;
+}
+
+.stock-dog .skills__list {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+.stock-dog .skills__item {
+    width: 380px;
+}
+
+.stock-dog .skills__item.type2 {
+    justify-content: flex-end;
+}
+
+.stock-dog .stock__form .form:after {
+    content: none;
+}
+
+.stock__info {
+    padding-left: 35px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #84827e;
+    margin-top: 10px;
+}
+
+.stock-dog .stock__body--item {
+    margin-bottom: 20px;
+}
+
+.stock-dog .stock__form .form__text {
+    font-size: 27px;
+    line-height: 25px;
+    color: #302020;
+    max-width: 100%;
+}
+
+.stock-dog .stock__body:before {
+    background: url('../images/stock-dog1.png') no-repeat;
+    width: 420px;
+    height: 408px;
+    right: -100px;
+    bottom: -100px;
+}
+
+.dog-bg {
+    background: url('../images/dog-review-bg.png') no-repeat left 350px;
+}
+
+.home-dog .home-description__form .form:after {
+    content: none;
+}
+
+.home-descriprion__info {
+    width: 250px;
+    height: 85px;
+    border: 2px dashed #fff;
+    border-radius: 21px;
+    padding: 12px;
+    font-size: 20px;
+    line-height: 19px;
+    color: #fff;
+}
+
+.security-content h2 {
+    margin-bottom: 50px;
+}
+
+.security-content h2 span {
+    font-weight: normal;
+}
+
+.security-content__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.security-content__item {
+    width: 360px;
+    height: 240px;
+    background: #fff;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    box-shadow: 0px 13px 79px rgba(0,0,0,0.18);
+    margin-bottom: 40px;
+    padding: 40px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.security-content__item--text {
+    max-width: 240px;
+    height: 100%;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+    padding: 6px 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.security-content__item--text:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 12px;
+    border-radius: 5px;
+    background: #f54368;
+    left: -6px;
+}
+
+.security-content__item--text span {
+    font-weight: bold;
+}
+
+.security-content__item--img {
+    width: 180px;
+    height: 100%;
+    background: #dcdcdc;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.all-masters {
+    padding: 50px 0;
+}
+
+.all-masters h2 {
+    margin-bottom: 30px;
+}
+
+.all-masters h2 span {
+    font-weight: normal;
+}
+
+.appointment .stock__form .form:after {
+    content: none;
+}
+
+.stock__body--info {
+    font-size: 25px;
+    line-height: 30px;
+    color: #302020;
+    width: 640px;
+    margin-left: auto;
+}
+
+.stock__body--info span {
+    font-weight: bold;
+}
+
+.appointment .stock__body:before {
+    width: 655px;
+    height: 414px;
+    background: url('../images/tea.png') no-repeat;
+    right: -150px;
+    bottom: -130px;
 }
