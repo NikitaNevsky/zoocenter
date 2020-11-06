@@ -1964,6 +1964,7 @@ Cat grooming ------------------------------------------------------------*/
     width: 300px;
     height: auto;
     margin-right: 15px;
+    margin-top: 50px;
 }
 
 .dog-grooming .cat-grooming-content__gift--form:before {
@@ -2129,4 +2130,80 @@ Cat grooming ------------------------------------------------------------*/
     background: url('../images/tea.png') no-repeat;
     right: -150px;
     bottom: -130px;
+}
+
+/*----------------------- Toothbrushing -----------------------*/
+
+.information {
+    padding-bottom: 35px;
+    background: url('../images/information-bg.png') no-repeat center;
+}
+
+.toothbrushing .skills__list {
+    justify-content: space-around;
+}
+
+.toothbrushing .skills__item.type3 {
+    justify-content: flex-start;
+}
+
+.information-content h2 {
+    margin-bottom: 20px;
+}
+
+.information-content h2 span {
+    font-weight: normal;
+}
+
+.information-content__subtitle {
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto 30px;
+}
+
+.information-content__item {
+    padding: 20px 0;
+    background: rgba(255,255,255,0.5);
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    -webkit-box-shadow: 0px 16px 35px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 16px 35px rgba(0,0,0,0.13);
+    box-shadow: 0px 16px 35px rgba(0,0,0,0.13);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.information-content__item--info {
+    padding: 20px 40px;
+    position: relative;
+}
+
+.information-content__item--info:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 12px;
+    border-radius: 5px;
+    background: #f54368;
+    top: 0;
+    left: -6px;
+}
+
+.information-content__item--title {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.information-content__item--text {
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
 }
