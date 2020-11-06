@@ -673,4 +673,367 @@
     .question .form__input img {
         display: block;
     }
+
+    .studio-main {
+        padding-top: 200px;
+        background: url(../images/studio-bg-mobile.png) no-repeat center -60px;
+        padding-bottom: 40px;
+    }
+
+    .studio-main .cat-grooming-content__title {
+        font-size: 27px;
+        line-height: 31px;
+    }
+
+    .studio-main .cat-grooming-content__title br {
+        display: none;
+    }
+
+    .studio-main__content {
+        flex-direction: column;
+    }
+
+    .studio-main__subtitle {
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+
+    .studio-main__content .form {
+        width: 100%;
+        margin-top: 240px;
+        margin-bottom: 40px;
+    }
+
+    .studio-main__content .form {
+    }
+
+    .studio-main__content .form .form__title {
+        margin-bottom: 30px;
+    }
+
+    .studio-skills .skills__list {
+        justify-content: center;
+    }
+
+    .costume-content h2 span {
+        display: block;
+    }
+
+    .costume-content__list--mobile {
+        display: block!important;
+    }
+
+    .costume-content__list--desctop {
+        display: none!important;
+    }
+
+    .costume-content__item {
+        width: 100%;
+        margin-bottom: 0px;
+        box-shadow: none;
+        border: 1px solid #dedede;
+    }
+
+    .costume-question .question .form:after {
+        content: none;
+    }
+
+    .costume-question .question .form {
+        flex-direction: column;
+    }
+
+    .costume-question .question .form__text {
+        display: none;
+    }
+
+    .form__text--mobile {
+        display: block;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .form__text--mobile span {
+        font-weight: normal;
+    }
+
+    .costume-question .question .form__info {
+        padding: 0;
+    }
+
+    .costume-question h2 {
+        margin: 50px 0 30px;
+    }
+
+    .costume-skills__item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .costume-skills__item--img {
+        width: 100%;
+    }
+
+    .stock__body {
+        position: relative;
+        border: 0;
+        padding: 0;
+        margin-top: 50px;
+        top: auto;
+        height: auto;
+    }
+
+    .stock__info {
+        padding: 0;
+    }
+
+    .make-suit {
+        padding: 30px 0 30px;
+    }
+
+    .make-suit .stock__form .form {
+        width: 100%;
+    }
+
+    .stock__form .form:before {
+        border: 1px solid #e6e6e6;
+        width: calc(100% - 24px);
+        height: calc(100% - 24px);
+    }    
+
+    .make-suit .stock__body:before {
+        content: none;
+    }
+
+    .make-suit__info--title {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .make-suit__info--item {
+        font-size: 18px;
+        display: block;
+    }
+
+    .cat-grooming {
+        padding-top: 210px;
+        background: url(../images/cat-grooming-bg-mobile.png) no-repeat center 0;
+    }
+
+    .cat-grooming-content__title {
+        font-size: 39.98px;
+        line-height: 38.73px;
+    }
+
+    .cat-grooming-content__subtitle {
+        font-size: 18px;
+        line-height: 19.7px;
+        margin-top: 10px;
+    }
+
+    .cat-grooming-content__gift {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cat-grooming-content__gift--form {
+        margin-right: 0;
+        margin-top: 250px;
+    }
+
+    .cat-grooming-content__gift--form .form {
+        width: 100%;
+    }
+
+    .cat-grooming-content__gift--text {
+        margin: 0;
+        font-size: 16.89px;
+        line-height: 18.49px;
+        width: 150px;
+        height: 54px;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    .cat-grooming-content__gift--form:before {
+        width: 102px;
+        height: 81px;
+        background: url(../images/cat-form-mobile.png) no-repeat;
+        top: -58px;
+        left: 120px;
+        right: auto;
+    }
+
+    .skills__item {
+        width: 220px;
+        margin: 0 auto 35px;
+    }
+
+    .stock {
+        padding-top: 0;
+    }
+
+    .skills {
+        margin-bottom: 10px;
+    }
+
+    .stock__form .form {
+        width: 100%;
+    }
+
+    .stock__form .form:after {
+        width: 130px;
+        height: 139px;
+        background: url(../images/stock-cat1-mobile.png) no-repeat;
+        top: -126px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .stock__info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stock__body {
+        order: 0;
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+        max-width: 85%;
+        margin: auto;
+    }
+
+    .stock__form {
+        order: 1;
+        margin-top: 130px;
+    }
+
+    .stock__body--title {
+        font-size: 32.05px;
+        line-height: 32.05px;
+    }
+
+    .stock__body:before {
+        content: none;
+    }
+
+    .stock__body--left {
+        margin: 0;
+    }
+
+    .stock__body--price {
+        display: flex;
+        align-items: flex-end;
+        margin-top: 30px;
+    }
+
+    .stock__body--price .old {
+        margin-right: 5px;
+    }
+
+    .handling-content__slider--item {
+        width: 100%;
+        height: 358px;
+        box-shadow: none;
+        border: 1px solid #dedede;
+        margin: 0;
+        border-radius: 20px;
+    }
+
+    .handling-content__slider--item img {
+        height: 100%;
+        width: auto!important;
+    }
+
+    .home {
+        padding-top: 0;
+    }
+
+    .home-content__list {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 74%;
+        margin: auto;
+    }
+
+    .home-content__item {
+        margin-bottom: 15px;
+    }
+
+    .home-content__item--icon {
+        width: 80px;
+        margin-right: 15px;
+    }
+
+    .home-content__item--icon img {
+        width: 100%;
+    }
+
+    .home-content__item--text {
+        font-size: 14.43px;
+        line-height: 18.44px;
+    }
+
+    .home-description {
+        flex-direction: column;
+        padding-top: 130px;
+        padding-bottom: 40px;
+    }
+
+    .home-content__info {
+        background: url('../images/home-bg-mobile.png') no-repeat center -90px;
+    }
+
+    .home-description__title {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .home-description__item {
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    .home-description__form {
+        margin-top: 340px;
+    }
+
+    .home-description__form .form {
+        width: 100%;
+    }
+
+    .form__title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .home-description__form .form__text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .home-description__form .form:after {
+        width: 221px;
+        height: 73px;
+        background: url('../images/cat-form3-mobile.png') no-repeat;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -55px;
+    }
+
+    .home-content__info:after {
+        content: none;
+    }
+
+    .question__grooming:before {
+        content: none;
+    }
+
+
 }

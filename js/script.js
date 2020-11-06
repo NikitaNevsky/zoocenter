@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $("#phone").mask("+7(999) 999-99-99");
     $("#phone2").mask("+7(999) 999-99-99");
+    $(".phone__input").mask("+7(999) 999-99-99");
 });
 
 $('.slider-type1').owlCarousel({
@@ -23,6 +24,15 @@ $('.slider-type1').owlCarousel({
             items:4
         }
     }
+})
+
+$('.slider-type1-mobile').owlCarousel({
+  loop:true,
+  nav:false,
+  items:1,
+  navText: ['<span class="arrow-left"><img src="images/arrow-left.png" /></span>','<span class="arrow-right"><img src="images/arrow-right.png" /></span>'],
+  onInitialized: counter,
+  onTranslated: counter
 })
 
 function counter(event) {

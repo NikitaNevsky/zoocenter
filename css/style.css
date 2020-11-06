@@ -2234,6 +2234,10 @@ Cat grooming ------------------------------------------------------------*/
     margin-bottom: 80px;
 }
 
+.studio-main__content .form .form__title {
+    margin-bottom: 40px;
+}
+
 .studio-skills .skills__item {
     max-width: 250px;
 }
@@ -2367,6 +2371,14 @@ Cat grooming ------------------------------------------------------------*/
     transform: translateX(-50%);
     border-radius: 5px 5px 0 0;
     background: #f54368;
+}
+
+.costume-content__list--mobile {
+    display: none!important;
+}
+
+.form__text--mobile {
+    display: none;
 }
 
 /*----------------------- Make suit -----------------------*/
