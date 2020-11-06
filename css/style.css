@@ -2034,6 +2034,10 @@ Cat grooming ------------------------------------------------------------*/
     color: #fff;
 }
 
+.home-descriprion__info--mobile {
+    display: none;
+}
+
 .security-content h2 {
     margin-bottom: 50px;
 }
@@ -2162,6 +2166,10 @@ Cat grooming ------------------------------------------------------------*/
     text-align: center;
     max-width: 780px;
     margin: 0 auto 30px;
+}
+
+.information-content__list--mobile {
+    display: none!important;
 }
 
 .information-content__item {
